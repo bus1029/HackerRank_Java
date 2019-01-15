@@ -1,4 +1,4 @@
-package Practice.Day_02_Java_Stdin_and_Stdout_1;
+package Practice.Day_02_Stdin_and_Stdout_1;
 
 import java.util.Scanner;
 
