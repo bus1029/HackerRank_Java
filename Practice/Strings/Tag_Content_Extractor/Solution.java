@@ -26,6 +26,14 @@ public class Solution{
             Pattern p = Pattern.compile(regex);
             Matcher m = p.matcher(line);
 
+            /*
+            <h1><h1>asdf</h1></h1>
+
+            group(0): <h1><h1>asdf</h1></h1>
+            group(1): <h1>
+            group(2): asdf
+
+             */
             while (m.find()) {
                 System.out.println(m.group(2));
                 found = true;
